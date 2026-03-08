@@ -2,6 +2,7 @@
   "name": "cfnew-workers-deploy",
   "private": true,
   "scripts": {
+    "postinstall": "node scripts/prepare-worker.mjs",
     "test": "node --test",
     "prepare:worker": "node scripts/prepare-worker.mjs",
     "deploy": "npm run prepare:worker && npx wrangler deploy"
