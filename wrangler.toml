@@ -1,0 +1,4 @@
+name = "cfnew-worker"
+main = "_worker.js"
+compatibility_date = "2026-03-09"
+
