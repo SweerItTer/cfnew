@@ -1,4 +1,6 @@
-name = "cfnew-worker"
+name = "cfnew"
 main = "_worker.js"
-compatibility_date = "2026-03-09"
-
+compatibility_date = "2026-03-08"
+keep_vars = true
+workers_dev = false
+preview_urls = false
